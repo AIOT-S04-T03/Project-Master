@@ -5,8 +5,15 @@
 以一個類似於監視器的畫面呈現，並有log訊息      
 
 # Back-end
-希望能以Docker方式開發，如果可以，就嘗試golang吧~    
-加油（？
+Translation the data with sockets   
+Port 5000: Receive place data   
+Port 5001: Send place data to front-end1   
+Port 5002: Send place data to front-end2    
+Port 5003: Receive plate data   
+Port 5004: Send plate data to front-end1   
+Port 5005: Receive place info.   
+Port 5006: Send info to LED1   
+Port 5007: Send info to LED2   
 
 # AI
 plate_location (done)
@@ -25,3 +32,4 @@ ___
 
 # Log history
 2019/09/25: 建立MD檔
+2019/10/25: update
