@@ -7,12 +7,12 @@
 # Back-end
 Translation the data with sockets   
 Port 5000: Receive place data   
-Port 5001: Send place data to front-end1   
-Port 5002: Send place data to front-end2    
+Port 5001: Send place data to Database   
+Port 5002: not use    
 Port 5003: Receive plate data (enter)   
-Port 5004: Send plate data to front-end1 (enter)   
+Port 5004: Send plate data to Database (enter)   
 Port 5005: Receive plate data (exit)   
-Port 5006: Send plate data to front-end1 (exit)      
+Port 5006: Send plate data to Database (exit)      
 Port 5007: Receive place info.   
 Port 5008: Send info to LED1   
 Port 5009: Send info to LED2   
